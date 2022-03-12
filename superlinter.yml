@@ -1,0 +1,17 @@
+ nama : Super-Linter
+
+pada : dorong
+
+pekerjaan :
+serat super :
+nama : Basis kode lint
+berjalan-on : ubuntu-terbaru
+langkah-langkah :
+- nama : Kode checkout
+menggunakan : tindakan/checkout@v2
+
+nama : Jalankan Super-Linter
+menggunakan : github/super-linter@v3
+env :
+DEFAULT_BRANCH : utama
+GITHUB_TOKEN : ${{ rahasia.GITHUB_TOKEN }}
